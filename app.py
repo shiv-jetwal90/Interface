@@ -6,7 +6,7 @@ from passlib.handlers.sha2_crypt import sha512_crypt
 
 
 app = Flask(__name__, template_folder='templates')
-cnx= mysql.connector.connect(user ='root', password= 'shiv@1997', host = '127.0.0.1', database='mysql',auth_plugin='mysql_native_password')
+cnx= mysql.connector.connect(user ='root', password= '#########', host = '127.0.0.1', database='mysql',auth_plugin='mysql_native_password')
 
 
 
